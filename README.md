@@ -7,18 +7,22 @@
 
 A minimalist UI library built with React 19 and Tailwind 4. Designed for data-intensive dashboards and B2B platforms where information density and performance are the primary requirements.
 
-## 🚀 Live Demo
-[View the Design System Showcase](https://andreap2a.github.io/react-b2b-ui-design-system/)
+## 🌐 Live Demo
+[View the Design System Showcase](https://andreap2a.github.io/react-B2B-UI-Design-System/)
 
 ---
 
-## 🛠️ Technical Specifications
+## ✨ Highlights
+- **High Density**: Layouts and components optimized for complex data views and analytical workflows.
+- **Modern Performance**: Zero-runtime styling overhead with Tailwind 4 and React 19 concurrent mode.
+- **Full Adaptability**: Integrated dark/light mode synchronization via document-root class.
+- **Total Reliability**: 100% TypeScript implementation for type-safe component consumption.
 
-- **React 19**: Modern concurrent rendering and asset management.
-- **Tailwind CSS 4**: CSS-first styling engine with zero runtime overhead.
-- **High Density**: Layouts and components optimized for complex data views.
-- **Theme Support**: Integrated dark/light mode via document-root class.
-- **Type Safety**: 100% TypeScript implementation.
+## 🚀 Tech Stack
+- **React 19**: Core UI logic and concurrent rendering.
+- **Tailwind CSS 4**: Modern styling engine with native CSS variables.
+- **TypeScript**: Direct type definitions for documentation and safety.
+- **Vite**: Ultra-fast build tool and development server.
 
 ---
 
@@ -35,7 +39,7 @@ A minimalist UI library built with React 19 and Tailwind 4. Designed for data-in
 - **Modal**: Accessible overlays using React Portals.
 
 ### ⚡ Interactive Elements
-- **Button**: Multi-variant (Primary, Outline, Danger, Ghost, Link) with loading states.
+- **Button**: Multi-variant actions with loading states.
 - **Switch**: Toggles for system-wide configuration.
 - **Dropdown**: Portal-rendered menus for context actions and notifications.
 - **Kbd**: Visual shortcuts for power-user documentation.
@@ -48,7 +52,7 @@ A minimalist UI library built with React 19 and Tailwind 4. Designed for data-in
 - **Chip**: High-density tags with interactive removal capability.
 
 ### 📢 Feedback & Identity
-- **Alert**: Semantic banners (Info, Success, Warning, Danger).
+- **Alert**: Semantic banners for system messaging.
 - **Avatar**: Personalization with presence status and 5 size tiers.
 - **Spinner**: Visual feedback for indeterminate wait times.
 - **Skeleton**: Loading primitives for asynchronous data states.
@@ -56,8 +60,7 @@ A minimalist UI library built with React 19 and Tailwind 4. Designed for data-in
 
 ---
 
-## � Design Principles
-
+## 📐 Design Principles
 1. **Native Behavior**: Components behave exactly like their HTML counterparts.
 2. **Visual Efficiency**: High contrast and clear hierarchy for expert users.
 3. **Professional Palette**: Neutral grays to maintain brand agnostic design.
@@ -66,11 +69,11 @@ A minimalist UI library built with React 19 and Tailwind 4. Designed for data-in
 
 ---
 
-## 📦 Getting Started
+## �️ Local Development
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/AndreaP2A/react-b2b-ui-design-system.git
+   git clone https://github.com/AndreaP2A/React-B2B-UI-Design-System.git
    ```
 
 2. **Install dependencies**
