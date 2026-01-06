@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: '/react-b2b-ui-design-system/',
+  base: '/React-B2B-UI-Design-System/',
 })

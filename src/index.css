@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-/* Enable manual dark mode via the .dark class */
+
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
@@ -34,7 +34,7 @@
   line-height: 1.5;
   font-weight: 400;
   
-  /* Theme colors are handled by Tailwind 4 @theme, but root colors help with initial load */
+
   color-scheme: light dark;
 }
 
@@ -42,7 +42,7 @@ body {
   margin: 0;
   min-width: 100%;
   min-height: 100vh;
-  background-color: #f8fafc; /* light mode fallback */
+  background-color: #f8fafc;
 }
 
 #root {
@@ -52,11 +52,11 @@ body {
 
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: #020617; /* dark mode fallback */
+    background-color: #020617;
   }
 }
 
-/* Smooth scrolling for the whole page */
+
 html {
   scroll-behavior: smooth;
 }

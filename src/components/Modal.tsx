@@ -34,13 +34,13 @@ const Modal = ({ isOpen, onClose, title, children, footer, className }: ModalPro
 
   return createPortal(
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
-      {/* Backdrop */}
+
       <div 
         className="fixed inset-0 bg-black/50 transition-opacity backdrop-blur-sm" 
         onClick={onClose} 
       />
       
-      {/* Modal Content */}
+
       <div
         ref={modalRef}
         className={cn(
@@ -48,7 +48,7 @@ const Modal = ({ isOpen, onClose, title, children, footer, className }: ModalPro
           className
         )}
       >
-        {/* Header */}
+
         <div className="flex items-center justify-between border-b border-secondary-100 dark:border-secondary-800 p-6">
           <h3 className="text-lg font-semibold text-secondary-900 dark:text-white">
             {title}
@@ -63,12 +63,12 @@ const Modal = ({ isOpen, onClose, title, children, footer, className }: ModalPro
           </button>
         </div>
 
-        {/* Body */}
+
         <div className="p-6 text-secondary-600 dark:text-secondary-400">
           {children}
         </div>
 
-        {/* Footer */}
+
         {footer && (
           <div className="flex items-center justify-end gap-3 border-t border-secondary-100 dark:border-secondary-800 p-6">
             {footer}

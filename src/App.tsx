@@ -59,10 +59,10 @@ function App() {
   return (
     <>
       <div className="min-h-screen w-full bg-secondary-50 dark:bg-secondary-950 text-secondary-950 dark:text-secondary-100 flex transition-colors duration-300 font-sans">
-        {/* Functional Hub Sidebar */}
+
         <div className="hidden lg:flex w-20 bg-white dark:bg-secondary-900 border-r border-secondary-200 dark:border-secondary-800 flex-col items-center py-8 justify-between sticky top-0 h-screen">
           <div className="flex flex-col items-center gap-10">
-            {/* System Logo */}
+
             <div className="w-10 h-10 bg-primary-600 rounded-xl shadow-lg shadow-primary-500/20 flex items-center justify-center text-white ring-2 ring-primary-500/20">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" className="w-6 h-6">
                 <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" />
@@ -71,7 +71,7 @@ function App() {
               </svg>
             </div>
 
-            {/* Social & Source Links */}
+
             <nav className="flex flex-col items-center gap-4">
               <Tooltip content="GitHub Profile" position="right">
                 <a 
@@ -114,7 +114,7 @@ function App() {
             </nav>
           </div>
 
-          {/* User Presence */}
+
           <div className="flex flex-col items-center gap-6">
             <Separator className="w-8" />
             <Tooltip content="Alex Lee (Admin)" position="right">
@@ -128,7 +128,7 @@ function App() {
         <div className="flex-1 overflow-auto">
           <div className="max-w-6xl mx-auto px-6 py-12 md:px-12 lg:py-20 space-y-12">
             
-            {/* Hero Header */}
+
             <header className="flex flex-col md:flex-row md:items-end justify-between gap-8">
               <div className="space-y-4">
                 <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary-100 dark:bg-primary-900/30 text-primary-700 dark:text-primary-300 text-xs font-bold uppercase tracking-wider">
@@ -318,10 +318,10 @@ function App() {
               <TabsContent value="components" className="pt-6">
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-16">
                   
-                  {/* Left Column: Documentation & Components */}
+
                   <div className="lg:col-span-8 space-y-12">
                     
-                    {/* Foundations Section */}
+
                     <section id="foundations" className="space-y-12">
                       <div className="space-y-2">
                         <h2 className="text-2xl font-bold text-secondary-900 dark:text-white">Design Foundations</h2>
@@ -389,7 +389,7 @@ function App() {
                       </div>
                     </section>
 
-                    {/* Buttons Section */}
+
                     <section id="buttons" className="space-y-8">
                       <div className="space-y-2">
                         <h2 className="text-2xl font-bold text-secondary-900 dark:text-white">Interactive Elements</h2>
@@ -413,7 +413,7 @@ function App() {
                       </div>
                     </section>
 
-                    {/* Feedback & Status Section */}
+
                     <section id="feedback" className="space-y-8">
                       <div className="space-y-2">
                         <h2 className="text-2xl font-bold text-secondary-900 dark:text-white">Feedback & Status</h2>
@@ -453,7 +453,7 @@ function App() {
                       </div>
                     </section>
 
-                    {/* Navigation Section */}
+
                     <section id="navigation" className="space-y-8">
                       <div className="space-y-2">
                         <h2 className="text-2xl font-bold text-secondary-900 dark:text-white">Navigation & Hierarchy</h2>
@@ -488,7 +488,7 @@ function App() {
                       </div>
                     </section>
                     
-                    {/* Form Elements */}
+
                     <section id="forms" className="space-y-8">
                       <div className="space-y-2">
                         <h2 className="text-2xl font-bold text-secondary-900 dark:text-white">Form Foundations</h2>
@@ -561,7 +561,7 @@ function App() {
                       </Table>
                     </section>
                     
-                    {/* Loading & Async Section */}
+
                     <section id="loading" className="space-y-8">
                       <div className="space-y-2">
                         <h2 className="text-2xl font-bold text-secondary-900 dark:text-white">Loading & Async</h2>
@@ -592,7 +592,7 @@ function App() {
                       </div>
                     </section>
                     
-                    {/* Data Visualization */}
+
                     <section id="viz" className="space-y-8">
                       <div className="space-y-2">
                         <h2 className="text-2xl font-bold text-secondary-900 dark:text-white">Data Visualization</h2>
@@ -620,7 +620,7 @@ function App() {
                     </section>
                   </div>
 
-                  {/* Right Column: Utilities & States */}
+
                   <div className="lg:col-span-4 space-y-12">
                     <div className="sticky top-12 space-y-12">
                     <section className="p-6 rounded-2xl bg-white dark:bg-secondary-900 border border-secondary-200 dark:border-secondary-800 shadow-sm space-y-6">
@@ -795,7 +795,7 @@ function App() {
 
               <TabsContent value="settings" className="pt-6">
                 <div className="max-w-4xl space-y-8">
-                  {/* User Profile Section */}
+
                   <section className="space-y-6">
                     <div className="space-y-2">
                       <h2 className="text-2xl font-bold text-secondary-900 dark:text-white">User Profile</h2>
@@ -825,7 +825,7 @@ function App() {
                     </Card>
                   </section>
 
-                  {/* Team Management */}
+
                   <section className="space-y-6">
                     <div className="space-y-2">
                       <h2 className="text-2xl font-bold text-secondary-900 dark:text-white">Team Management</h2>
@@ -893,7 +893,7 @@ function App() {
                     </Card>
                   </section>
 
-                  {/* Danger Zone */}
+
                   <section className="space-y-6">
                     <div className="space-y-2">
                       <h2 className="text-2xl font-bold text-red-600">Danger Zone</h2>
